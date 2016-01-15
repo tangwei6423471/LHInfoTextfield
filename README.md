@@ -2,11 +2,9 @@
 
 [![CI Status](http://img.shields.io/travis/leoMobileDeveloper/LHInfoTextfield.svg?style=flat)](https://travis-ci.org/leoMobileDeveloper/LHInfoTextfield)
 [![Version](https://img.shields.io/cocoapods/v/LHInfoTextfield.svg?style=flat)](http://cocoapods.org/pods/LHInfoTextfield)
-[![License](https://img.shields.io/cocoapods/l/LHInfoTextfield.svg?style=flat)](http://cocoapods.org/pods/LHInfoTextfield)
-[![Platform](https://img.shields.io/cocoapods/p/LHInfoTextfield.svg?style=flat)](http://cocoapods.org/pods/LHInfoTextfield)
 
-
-<img src="https://raw.github.com/LeoMobileDeveloper/LHInfoTextfield/master/ScreenShots/gif.gif" width="320" />
+## Gif
+<img src="https://raw.github.com/LeoMobileDeveloper/LHInfoTextfield/master/ScreenShot/gif.gif" width="320" />
 
 
 ## Usage
