@@ -1,0 +1,6 @@
+framework module Pods_LHInfoTextfield_Tests {
+  umbrella header "Pods-LHInfoTextfield_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

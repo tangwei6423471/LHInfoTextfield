@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0982746D9C32E9022B59BA17FC40F335 /* LHInfoTextfield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 952883DD152B31B285F59F907F097CB4 /* LHInfoTextfield-dummy.m */; };
+		12F7C5AAE896679A262D951C81094CAA /* LHAnchorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086AF03F8E6E1083D3235C5A2DA14F51 /* LHAnchorView.m */; };
+		22DCF1EB836AA00611C0B5CDF70D20C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		265FD57052BC4E57DA5660FC459FC8FA /* UITextField+LHInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F8169DF2A66D19D609016DC6E4B0C72C /* UITextField+LHInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399FB1067DF7ECBAEAF7B63E95CC4AC8 /* LHInfoTextfield-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9FAF4104B5B3855BE40FBAF8896474 /* LHInfoTextfield-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45CC0DEFC7267FDCE58CA8283A2FDC40 /* LHAnchorView.h in Headers */ = {isa = PBXBuildFile; fileRef = D769B08FB6F2A2C79DB9EB4D3EA8E7E5 /* LHAnchorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		929285D955788FB67821461FE81BCBDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C1FE01109D54AFDAC58462E3D10627CE /* Pods-LHInfoTextfield_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FFDB58372AB87044436FA88BD78269 /* Pods-LHInfoTextfield_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5DFA496458814B4B93D52C72F40375E /* Pods-LHInfoTextfield_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 719A4DF994D446E0F736D0907EFA9249 /* Pods-LHInfoTextfield_Example-dummy.m */; };
+		D2C163E2A620DF33B9DE497D87C3FC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E78A0212E34AA25D2EBB2D4B6DA9DDAC /* UITextField+LHInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A659B0526FDD1BDF47EA8195B6634AD /* UITextField+LHInfo.m */; };
+		F643098F77EE4141350371CAC3B18CD2 /* LHInfoTextfield.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFE4F4CDF2BEE57392F8204AC264754E /* LHInfoTextfield.bundle */; };
+		FD5A3C41472EE4C4C0D1EF6D1DD75F58 /* Pods-LHInfoTextfield_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF898FC7F24BB4BD7D0D878E0345613 /* Pods-LHInfoTextfield_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF475DF74BF0BD84200916B380B652A0 /* Pods-LHInfoTextfield_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C64FD2930C99BF29D4EE925B63BF4CF /* Pods-LHInfoTextfield_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4665F09935182D05B51DCC31486CED7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2895711996AEBDEA1A99F2F0948B566;
+			remoteInfo = LHInfoTextfield;
+		};
+		63C1CA3F3ED70E1368554FB6CBE7126A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2895711996AEBDEA1A99F2F0948B566;
+			remoteInfo = LHInfoTextfield;
+		};
+		FF1A1F6ED5FBD27E37072FB62735E812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2E9491E6D34A665C5940E559111FE8;
+			remoteInfo = "LHInfoTextfield-LHInfoTextfield";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C9B195F8CE157814AE737626A4FFB1 /* Pods-LHInfoTextfield_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHInfoTextfield_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		086AF03F8E6E1083D3235C5A2DA14F51 /* LHAnchorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LHAnchorView.m; sourceTree = "<group>"; };
+		0872A943E5D610C6214FDA23A526DF39 /* Pods-LHInfoTextfield_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHInfoTextfield_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		09893DC732B1E1604AC463A774415E54 /* Pods-LHInfoTextfield_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LHInfoTextfield_Example-frameworks.sh"; sourceTree = "<group>"; };
+		11FAB1BF493508CC9516E7E0053B45B1 /* Pods_LHInfoTextfield_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHInfoTextfield_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1399B1B1B199AE216E5EA91B71CFCE32 /* LHInfoTextfield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LHInfoTextfield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B66F409E83C4E5AB527B320F4FACCE1 /* LHInfoTextfield.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LHInfoTextfield.modulemap; sourceTree = "<group>"; };
+		1BD1B1B7D7594832FC83D04147FA9548 /* Pods-LHInfoTextfield_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHInfoTextfield_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D9FAF4104B5B3855BE40FBAF8896474 /* LHInfoTextfield-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHInfoTextfield-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FF898FC7F24BB4BD7D0D878E0345613 /* Pods-LHInfoTextfield_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHInfoTextfield_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5E0AFA5ADC845B0D67BA01E2C65DCE52 /* Pods-LHInfoTextfield_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LHInfoTextfield_Tests.modulemap"; sourceTree = "<group>"; };
+		719A4DF994D446E0F736D0907EFA9249 /* Pods-LHInfoTextfield_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHInfoTextfield_Example-dummy.m"; sourceTree = "<group>"; };
+		739E8EA509C4414F4D26B34021F8CAF8 /* Pods_LHInfoTextfield_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHInfoTextfield_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B219B260ADCB7CBFF7B991EC1FE3429 /* Pods-LHInfoTextfield_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LHInfoTextfield_Example-resources.sh"; sourceTree = "<group>"; };
+		8BB55DDC8629129D63FEA56AA25442C2 /* Pods-LHInfoTextfield_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LHInfoTextfield_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8C64FD2930C99BF29D4EE925B63BF4CF /* Pods-LHInfoTextfield_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHInfoTextfield_Tests-dummy.m"; sourceTree = "<group>"; };
+		94974A96022CA5AD791C7D0382633BA7 /* Pods-LHInfoTextfield_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LHInfoTextfield_Tests-resources.sh"; sourceTree = "<group>"; };
+		949881DEA7A32BAF7D3533C76DC98FFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952883DD152B31B285F59F907F097CB4 /* LHInfoTextfield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LHInfoTextfield-dummy.m"; sourceTree = "<group>"; };
+		9975B6BDD96D843291FBB2B663A57E64 /* Pods-LHInfoTextfield_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHInfoTextfield_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A659B0526FDD1BDF47EA8195B6634AD /* UITextField+LHInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LHInfo.m"; sourceTree = "<group>"; };
+		A1BA592FD6A90FE8BC6DF045EB155091 /* Pods-LHInfoTextfield_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHInfoTextfield_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF7DD528F620B0EC5B63E2E360BCAB13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7AD0128AA6E6EB2937E58F40A94DC20 /* Pods-LHInfoTextfield_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHInfoTextfield_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDD018B0474EA5CAC55F54B31EFBC103 /* Pods-LHInfoTextfield_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHInfoTextfield_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D3F33B7993B42AD9F21D42DF8F0D6546 /* Pods-LHInfoTextfield_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHInfoTextfield_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4FFDB58372AB87044436FA88BD78269 /* Pods-LHInfoTextfield_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHInfoTextfield_Example-umbrella.h"; sourceTree = "<group>"; };
+		D769B08FB6F2A2C79DB9EB4D3EA8E7E5 /* LHAnchorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LHAnchorView.h; sourceTree = "<group>"; };
+		DC52CCEC021D1860D3C0B4D3917CDAD7 /* LHInfoTextfield-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHInfoTextfield-prefix.pch"; sourceTree = "<group>"; };
+		E7E70D51988B4CC8A5B699B0BA8F1062 /* LHInfoTextfield.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LHInfoTextfield.xcconfig; sourceTree = "<group>"; };
+		ED8CFD42C095913FD69CFA6691979A68 /* Pods-LHInfoTextfield_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LHInfoTextfield_Example.modulemap"; sourceTree = "<group>"; };
+		EF133777A80EA8A6122D51F691542A7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8169DF2A66D19D609016DC6E4B0C72C /* UITextField+LHInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+LHInfo.h"; sourceTree = "<group>"; };
+		FFE4F4CDF2BEE57392F8204AC264754E /* LHInfoTextfield.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHInfoTextfield.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16744B7D10E8294CFB7EDEC9B74774E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929285D955788FB67821461FE81BCBDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7D4E1B4D5AD95DD3BA3BE1A96D7224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C163E2A620DF33B9DE497D87C3FC11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA246CC60C46AB66D8935594D35A80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23273B91A2F48659D3FCBEBB5D1A2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DCF1EB836AA00611C0B5CDF70D20C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FD47745A98C9B18AE56930F8B4F317 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				828A7B24C92CBC8A8606F077B1E05243 /* LHInfoTextfield */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		30CE49835BC4E3C9702A79695C3DF951 /* Pods-LHInfoTextfield_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF133777A80EA8A6122D51F691542A7E /* Info.plist */,
+				5E0AFA5ADC845B0D67BA01E2C65DCE52 /* Pods-LHInfoTextfield_Tests.modulemap */,
+				D3F33B7993B42AD9F21D42DF8F0D6546 /* Pods-LHInfoTextfield_Tests-acknowledgements.markdown */,
+				03C9B195F8CE157814AE737626A4FFB1 /* Pods-LHInfoTextfield_Tests-acknowledgements.plist */,
+				8C64FD2930C99BF29D4EE925B63BF4CF /* Pods-LHInfoTextfield_Tests-dummy.m */,
+				8BB55DDC8629129D63FEA56AA25442C2 /* Pods-LHInfoTextfield_Tests-frameworks.sh */,
+				94974A96022CA5AD791C7D0382633BA7 /* Pods-LHInfoTextfield_Tests-resources.sh */,
+				3FF898FC7F24BB4BD7D0D878E0345613 /* Pods-LHInfoTextfield_Tests-umbrella.h */,
+				9975B6BDD96D843291FBB2B663A57E64 /* Pods-LHInfoTextfield_Tests.debug.xcconfig */,
+				0872A943E5D610C6214FDA23A526DF39 /* Pods-LHInfoTextfield_Tests.release.xcconfig */,
+			);
+			name = "Pods-LHInfoTextfield_Tests";
+			path = "Target Support Files/Pods-LHInfoTextfield_Tests";
+			sourceTree = "<group>";
+		};
+		4D281C6C9F875453CA0D7E62D5BC640D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D769B08FB6F2A2C79DB9EB4D3EA8E7E5 /* LHAnchorView.h */,
+				086AF03F8E6E1083D3235C5A2DA14F51 /* LHAnchorView.m */,
+				F8169DF2A66D19D609016DC6E4B0C72C /* UITextField+LHInfo.h */,
+				9A659B0526FDD1BDF47EA8195B6634AD /* UITextField+LHInfo.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				22FD47745A98C9B18AE56930F8B4F317 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DFDD5223314D5486BBEC63951EF9E25C /* Products */,
+				913115CAD8800CB3AA453BCD3185B487 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		828A7B24C92CBC8A8606F077B1E05243 /* LHInfoTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				99E9C079F8B63E7F6BB34782D8436401 /* Pod */,
+				89396AFE879AF97A005956A70F973DCC /* Support Files */,
+			);
+			name = LHInfoTextfield;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		89396AFE879AF97A005956A70F973DCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				949881DEA7A32BAF7D3533C76DC98FFC /* Info.plist */,
+				1B66F409E83C4E5AB527B320F4FACCE1 /* LHInfoTextfield.modulemap */,
+				E7E70D51988B4CC8A5B699B0BA8F1062 /* LHInfoTextfield.xcconfig */,
+				952883DD152B31B285F59F907F097CB4 /* LHInfoTextfield-dummy.m */,
+				DC52CCEC021D1860D3C0B4D3917CDAD7 /* LHInfoTextfield-prefix.pch */,
+				2D9FAF4104B5B3855BE40FBAF8896474 /* LHInfoTextfield-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LHInfoTextfield";
+			sourceTree = "<group>";
+		};
+		913115CAD8800CB3AA453BCD3185B487 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8205AEC0B9B1926E5A5BC50AD5991D7 /* Pods-LHInfoTextfield_Example */,
+				30CE49835BC4E3C9702A79695C3DF951 /* Pods-LHInfoTextfield_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		99E9C079F8B63E7F6BB34782D8436401 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4D281C6C9F875453CA0D7E62D5BC640D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B8205AEC0B9B1926E5A5BC50AD5991D7 /* Pods-LHInfoTextfield_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BF7DD528F620B0EC5B63E2E360BCAB13 /* Info.plist */,
+				ED8CFD42C095913FD69CFA6691979A68 /* Pods-LHInfoTextfield_Example.modulemap */,
+				C7AD0128AA6E6EB2937E58F40A94DC20 /* Pods-LHInfoTextfield_Example-acknowledgements.markdown */,
+				1BD1B1B7D7594832FC83D04147FA9548 /* Pods-LHInfoTextfield_Example-acknowledgements.plist */,
+				719A4DF994D446E0F736D0907EFA9249 /* Pods-LHInfoTextfield_Example-dummy.m */,
+				09893DC732B1E1604AC463A774415E54 /* Pods-LHInfoTextfield_Example-frameworks.sh */,
+				8B219B260ADCB7CBFF7B991EC1FE3429 /* Pods-LHInfoTextfield_Example-resources.sh */,
+				D4FFDB58372AB87044436FA88BD78269 /* Pods-LHInfoTextfield_Example-umbrella.h */,
+				A1BA592FD6A90FE8BC6DF045EB155091 /* Pods-LHInfoTextfield_Example.debug.xcconfig */,
+				CDD018B0474EA5CAC55F54B31EFBC103 /* Pods-LHInfoTextfield_Example.release.xcconfig */,
+			);
+			name = "Pods-LHInfoTextfield_Example";
+			path = "Target Support Files/Pods-LHInfoTextfield_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DFDD5223314D5486BBEC63951EF9E25C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4F4CDF2BEE57392F8204AC264754E /* LHInfoTextfield.bundle */,
+				1399B1B1B199AE216E5EA91B71CFCE32 /* LHInfoTextfield.framework */,
+				739E8EA509C4414F4D26B34021F8CAF8 /* Pods_LHInfoTextfield_Example.framework */,
+				11FAB1BF493508CC9516E7E0053B45B1 /* Pods_LHInfoTextfield_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12B2E12F45EEB670CB9956684F79A75D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CC0DEFC7267FDCE58CA8283A2FDC40 /* LHAnchorView.h in Headers */,
+				399FB1067DF7ECBAEAF7B63E95CC4AC8 /* LHInfoTextfield-umbrella.h in Headers */,
+				265FD57052BC4E57DA5660FC459FC8FA /* UITextField+LHInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C262D39B1C7D70AB67E812D657B09E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A3C41472EE4C4C0D1EF6D1DD75F58 /* Pods-LHInfoTextfield_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7860E036A4D2A84BCBA6F1188E8A57E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FE01109D54AFDAC58462E3D10627CE /* Pods-LHInfoTextfield_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		125A91E1B2F1FCD72BB488EE0973966B /* Pods-LHInfoTextfield_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9231B2F8155087A9BC7312135A402C70 /* Build configuration list for PBXNativeTarget "Pods-LHInfoTextfield_Example" */;
+			buildPhases = (
+				6EF7BB4B4F1C52478A5DF3F38FF1823F /* Sources */,
+				A23273B91A2F48659D3FCBEBB5D1A2F3 /* Frameworks */,
+				B7860E036A4D2A84BCBA6F1188E8A57E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2794DE3EC4CC2D495033D95662216543 /* PBXTargetDependency */,
+			);
+			name = "Pods-LHInfoTextfield_Example";
+			productName = "Pods-LHInfoTextfield_Example";
+			productReference = 739E8EA509C4414F4D26B34021F8CAF8 /* Pods_LHInfoTextfield_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C2E9491E6D34A665C5940E559111FE8 /* LHInfoTextfield-LHInfoTextfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871C8DD657C1404B00209375857AFCA5 /* Build configuration list for PBXNativeTarget "LHInfoTextfield-LHInfoTextfield" */;
+			buildPhases = (
+				8AB25A801FEE9B30A0DF2C120B10CB84 /* Sources */,
+				7EA246CC60C46AB66D8935594D35A80E /* Frameworks */,
+				1E81CEF8143B3B00C21F793D442D0870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LHInfoTextfield-LHInfoTextfield";
+			productName = "LHInfoTextfield-LHInfoTextfield";
+			productReference = FFE4F4CDF2BEE57392F8204AC264754E /* LHInfoTextfield.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A3E233D1D22E2EFC877149B5700C8C77 /* Pods-LHInfoTextfield_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF85D8AB9CA1C24142B24D68313FBA93 /* Build configuration list for PBXNativeTarget "Pods-LHInfoTextfield_Tests" */;
+			buildPhases = (
+				9F8F3997EAE2A902CBD26FD5E33D557C /* Sources */,
+				5D7D4E1B4D5AD95DD3BA3BE1A96D7224 /* Frameworks */,
+				76C262D39B1C7D70AB67E812D657B09E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40520D7616617890AE273DAB74804BF6 /* PBXTargetDependency */,
+			);
+			name = "Pods-LHInfoTextfield_Tests";
+			productName = "Pods-LHInfoTextfield_Tests";
+			productReference = 11FAB1BF493508CC9516E7E0053B45B1 /* Pods_LHInfoTextfield_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2895711996AEBDEA1A99F2F0948B566 /* LHInfoTextfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C8126B1F759689C3FDE598BA77C686 /* Build configuration list for PBXNativeTarget "LHInfoTextfield" */;
+			buildPhases = (
+				AA4073C5CBD6270CB8269EDECA4FD815 /* Sources */,
+				16744B7D10E8294CFB7EDEC9B74774E8 /* Frameworks */,
+				9751EB5FFBE43A42565A327A50C22FA0 /* Resources */,
+				12B2E12F45EEB670CB9956684F79A75D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD432E8590D36FD480F420D7F9746D3A /* PBXTargetDependency */,
+			);
+			name = LHInfoTextfield;
+			productName = LHInfoTextfield;
+			productReference = 1399B1B1B199AE216E5EA91B71CFCE32 /* LHInfoTextfield.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DFDD5223314D5486BBEC63951EF9E25C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2895711996AEBDEA1A99F2F0948B566 /* LHInfoTextfield */,
+				8C2E9491E6D34A665C5940E559111FE8 /* LHInfoTextfield-LHInfoTextfield */,
+				125A91E1B2F1FCD72BB488EE0973966B /* Pods-LHInfoTextfield_Example */,
+				A3E233D1D22E2EFC877149B5700C8C77 /* Pods-LHInfoTextfield_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E81CEF8143B3B00C21F793D442D0870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9751EB5FFBE43A42565A327A50C22FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F643098F77EE4141350371CAC3B18CD2 /* LHInfoTextfield.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EF7BB4B4F1C52478A5DF3F38FF1823F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DFA496458814B4B93D52C72F40375E /* Pods-LHInfoTextfield_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB25A801FEE9B30A0DF2C120B10CB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8F3997EAE2A902CBD26FD5E33D557C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF475DF74BF0BD84200916B380B652A0 /* Pods-LHInfoTextfield_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4073C5CBD6270CB8269EDECA4FD815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F7C5AAE896679A262D951C81094CAA /* LHAnchorView.m in Sources */,
+				0982746D9C32E9022B59BA17FC40F335 /* LHInfoTextfield-dummy.m in Sources */,
+				E78A0212E34AA25D2EBB2D4B6DA9DDAC /* UITextField+LHInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2794DE3EC4CC2D495033D95662216543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LHInfoTextfield;
+			target = E2895711996AEBDEA1A99F2F0948B566 /* LHInfoTextfield */;
+			targetProxy = 4665F09935182D05B51DCC31486CED7D /* PBXContainerItemProxy */;
+		};
+		40520D7616617890AE273DAB74804BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LHInfoTextfield;
+			target = E2895711996AEBDEA1A99F2F0948B566 /* LHInfoTextfield */;
+			targetProxy = 63C1CA3F3ED70E1368554FB6CBE7126A /* PBXContainerItemProxy */;
+		};
+		AD432E8590D36FD480F420D7F9746D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LHInfoTextfield-LHInfoTextfield";
+			target = 8C2E9491E6D34A665C5940E559111FE8 /* LHInfoTextfield-LHInfoTextfield */;
+			targetProxy = FF1A1F6ED5FBD27E37072FB62735E812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		28C4335D299DF4C534BDD2F0EC2BDF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E70D51988B4CC8A5B699B0BA8F1062 /* LHInfoTextfield.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LHInfoTextfield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3A7C2EBB095EED50B53352F3C84C47EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0872A943E5D610C6214FDA23A526DF39 /* Pods-LHInfoTextfield_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LHInfoTextfield_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHInfoTextfield_Tests/Pods-LHInfoTextfield_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LHInfoTextfield_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E20CCD0568CA2259F21B2A11638C268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E70D51988B4CC8A5B699B0BA8F1062 /* LHInfoTextfield.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LHInfoTextfield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		872EB260E5150B4F6E6649C57577B97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E70D51988B4CC8A5B699B0BA8F1062 /* LHInfoTextfield.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LHInfoTextfield/LHInfoTextfield-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LHInfoTextfield/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LHInfoTextfield/LHInfoTextfield.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LHInfoTextfield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A07F434B4CF61538601757433FA7DB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9975B6BDD96D843291FBB2B663A57E64 /* Pods-LHInfoTextfield_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LHInfoTextfield_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHInfoTextfield_Tests/Pods-LHInfoTextfield_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LHInfoTextfield_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B025277C4EB28469902A76AEC738BFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD018B0474EA5CAC55F54B31EFBC103 /* Pods-LHInfoTextfield_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LHInfoTextfield_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHInfoTextfield_Example/Pods-LHInfoTextfield_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LHInfoTextfield_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDFCAF346B48AC1EECA64E87B777982F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E70D51988B4CC8A5B699B0BA8F1062 /* LHInfoTextfield.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LHInfoTextfield/LHInfoTextfield-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LHInfoTextfield/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LHInfoTextfield/LHInfoTextfield.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LHInfoTextfield;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C321A1BEEBFF72B17C5EEEBF24448C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BA592FD6A90FE8BC6DF045EB155091 /* Pods-LHInfoTextfield_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LHInfoTextfield_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHInfoTextfield_Example/Pods-LHInfoTextfield_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LHInfoTextfield_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C8126B1F759689C3FDE598BA77C686 /* Build configuration list for PBXNativeTarget "LHInfoTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872EB260E5150B4F6E6649C57577B97B /* Debug */,
+				BDFCAF346B48AC1EECA64E87B777982F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871C8DD657C1404B00209375857AFCA5 /* Build configuration list for PBXNativeTarget "LHInfoTextfield-LHInfoTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C4335D299DF4C534BDD2F0EC2BDF37 /* Debug */,
+				5E20CCD0568CA2259F21B2A11638C268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9231B2F8155087A9BC7312135A402C70 /* Build configuration list for PBXNativeTarget "Pods-LHInfoTextfield_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C321A1BEEBFF72B17C5EEEBF24448C19 /* Debug */,
+				B025277C4EB28469902A76AEC738BFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF85D8AB9CA1C24142B24D68313FBA93 /* Build configuration list for PBXNativeTarget "Pods-LHInfoTextfield_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07F434B4CF61538601757433FA7DB7A /* Debug */,
+				3A7C2EBB095EED50B53352F3C84C47EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

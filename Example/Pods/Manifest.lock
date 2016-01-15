@@ -1,0 +1,14 @@
+PODS:
+  - LHInfoTextfield (0.1.0)
+
+DEPENDENCIES:
+  - LHInfoTextfield (from `../`)
+
+EXTERNAL SOURCES:
+  LHInfoTextfield:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LHInfoTextfield: bbc177fc47a862c1d014e4ed233c5c32537392f6
+
+COCOAPODS: 0.39.0
