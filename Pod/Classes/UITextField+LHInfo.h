@@ -10,5 +10,5 @@
 #import "LHAnchorView.h"
 @interface UITextField (LHInfo)
 
--(void)lh_addObserverWithCondition:(BOOL(^)(UITextField * textfield))condition ConfigLabel:(void(^)(UILabel * textLabel))config Infomation:(NSString *)information;
+-(void)lh_addObserverWithCondition:(BOOL(^)(UITextField * textfield))condition Config:(void(^)(LHAnchorView * anchorView))config Infomation:(NSString *)information;
 @end

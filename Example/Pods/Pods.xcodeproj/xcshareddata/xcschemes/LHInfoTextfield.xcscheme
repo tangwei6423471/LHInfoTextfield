@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7A877FEA797DB65E75482EEE'
+               BlueprintIdentifier = '02EB835A6E693144E90D46A0'
                BlueprintName = 'LHInfoTextfield'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LHInfoTextfield.framework'>

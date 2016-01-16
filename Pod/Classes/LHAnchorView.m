@@ -14,9 +14,12 @@
 @property (strong,nonatomic)NSMutableArray * conditions;
 @property (strong,nonatomic)NSMutableArray * infomations;
 @property (strong,nonatomic)NSMutableArray * configs;
+
+@property (copy,nonatomic)NSString * text;
+
 @end
 @implementation LHAnchorView
--(void)addObserverWithCondition:(BOOL(^)(UITextField * textfield))condition ConfigLabel:(void(^)(UILabel *))config Infomation:(NSString *)information{
+-(void)addObserverWithCondition:(BOOL(^)(UITextField * textfield))condition Config:(void(^)(LHAnchorView *))config Infomation:(NSString *)information{
     if (condition == nil) {
         NSAssert(false, @"You should impment conditon of LHInfoExtesnion");
     }
@@ -27,13 +30,15 @@
     if (config != nil) {
         [self.configs addObject:config];
     }else{
-        [self.configs addObject:^(UILabel *label){
-            label.font = [UIFont systemFontOfSize:12];
-            label.textColor = [UIColor blackColor];
+        [self.configs addObject:^(LHAnchorView * anchorView){
+            anchorView.font = [UIFont systemFontOfSize:12];
+            anchorView.textColor = [UIColor blackColor];
+            anchorView.borderColor = [UIColor darkGrayColor];
         }];
     }
 }
-@dynamic font,text;
+
+@dynamic font,text,textColor;
 -(void)drawRect:(CGRect)rect{
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGFloat lineWidth = 0.5;
@@ -56,7 +61,7 @@
     CGContextClosePath(context);
 
     CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
-    CGContextSetStrokeColorWithColor(context, [UIColor darkGrayColor].CGColor);
+    CGContextSetStrokeColorWithColor(context, self.borderColor.CGColor);
     CGContextSetLineJoin(context, kCGLineJoinRound);
     CGContextStrokePath(context);
     
@@ -74,6 +79,7 @@
     self.textLabel.frame = CGRectMake(0, 0, _minSize.width,_minSize.height - ARCHORWIDTH);
     self.textLabel.textAlignment = NSTextAlignmentCenter;
     _minSize = CGSizeMake(50,30);
+    self.borderColor = [UIColor darkGrayColor];
     self.opaque = NO;
     [self addSubview:self.textLabel];
     self.conditions = [NSMutableArray new];
@@ -87,6 +93,16 @@
 -(void)setFont:(UIFont *)font{
     self.textLabel.font = font;
     [self updateSelfIfNeed];
+}
+-(void)setBorderColor:(UIColor *)borderColor{
+    _borderColor = borderColor;
+    [self updateSelfIfNeed];
+}
+-(void)setTextColor:(UIColor *)textColor{
+    self.textLabel.textColor = textColor;
+}
+-(UIColor *)textColor{
+    return self.textLabel.textColor;
 }
 -(UIFont *)font{
     return self.textLabel.font;
@@ -110,10 +126,10 @@
         BOOL matchCondition = false;
         for (int index = 0; index < self.conditions.count;index ++) {
             BOOL(^condition)(UITextField *)  = self.conditions[index];
-            void(^config)(UILabel *) = self.configs[index];
+            void(^config)(LHAnchorView *) = self.configs[index];
             if (condition(self.bindedTextfield)) {
                 self.text = self.infomations[index];
-                config(self.textLabel);
+                config(self);
                 matchCondition = true;
                 break;
             }

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = A UITextfield Extension to show infomation when text match condition,it is quite easy to use.
+  s.description      = "A UITextfield Extension to show infomation when text match condition,it is quite easy to use"
 
   s.homepage         = "https://github.com/LeoMobileDeveloper/LHInfoTextfield"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

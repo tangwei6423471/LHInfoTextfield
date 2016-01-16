@@ -22,23 +22,19 @@
 {
     [super viewDidLoad];
     [self.textfield lh_addObserverWithCondition:^BOOL(UITextField *textfield) {
-        if (textfield.text.length > 8) {
-            return true;
-        }
-        return false;
-    } ConfigLabel:^(UILabel *label) {
-        label.textColor = [UIColor redColor];
-    } Infomation:@"HaHa it is greater that 8"];
+        return textfield.text.length > 8;
+    } Config:^(LHAnchorView *anchorView) {
+        anchorView.borderColor = [UIColor redColor];
+        anchorView.textColor = [UIColor redColor];
+    } Infomation:@"HaHa length is greater that 8"];
     
     [self.textfield lh_addObserverWithCondition:^BOOL(UITextField *textfield) {
-        if (textfield.text.length > 6) {
-            return true;
-        }else{
-            return false;
-        }
-    }ConfigLabel:^(UILabel *label) {
-        label.textColor = [UIColor blueColor];
-    } Infomation:@"6"];
+        return textfield.text.length > 6;
+    } Config:^(LHAnchorView *anchorView) {
+        anchorView.borderColor = [UIColor darkGrayColor];
+        anchorView.textColor = [UIColor blueColor];
+    } Infomation:@"💀👻🎅"];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 -(void)viewDidAppear:(BOOL)animated{

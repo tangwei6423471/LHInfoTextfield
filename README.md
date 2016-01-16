@@ -33,14 +33,20 @@ In the file that you want to use
 ```
 Add a condition
 ```
-    [self.textfield lh_addObserverWithCondition:^BOOL(UITextField *textfield) {
-    if (textfield.text.length > 8) {
-        return true;
-    }
-        return false;
-    } ConfigLabel:^(UILabel *label) {
-        label.textColor = [UIColor redColor];
-    } Infomation:@"HaHa it is greater that 8"];
+[self.textfield lh_addObserverWithCondition:^BOOL(UITextField *textfield) {
+    return textfield.text.length > 8;
+} Config:^(LHAnchorView *anchorView) {
+    anchorView.borderColor = [UIColor redColor];
+    anchorView.textColor = [UIColor redColor];
+} Infomation:@"HaHa length is greater that 8"];
+
+[self.textfield lh_addObserverWithCondition:^BOOL(UITextField *textfield) {
+    return textfield.text.length > 6;
+} Config:^(LHAnchorView *anchorView) {
+    anchorView.borderColor = [UIColor darkGrayColor];
+    anchorView.textColor = [UIColor blueColor];
+} Infomation:@"💀👻🎅"];
+
 
 ```
 Note:When add multi conditions,it will follow the order the the conditon is added.

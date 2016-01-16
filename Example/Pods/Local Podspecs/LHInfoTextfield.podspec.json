@@ -1,15 +1,15 @@
 {
   "name": "LHInfoTextfield",
   "version": "0.1.0",
-  "summary": "A short description of LHInfoTextfield.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/LHInfoTextfield",
+  "summary": "A UITextfield Extension to show infomation when text match condition",
+  "description": "A UITextfield Extension to show infomation when text match condition,it is quite easy to use",
+  "homepage": "https://github.com/LeoMobileDeveloper/LHInfoTextfield",
   "license": "MIT",
   "authors": {
     "leoMobileDeveloper": "leomobiledeveloper@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/LHInfoTextfield.git",
+    "git": "https://github.com/LeoMobileDeveloper/LHInfoTextfield.git",
     "tag": "0.1.0"
   },
   "platforms": {

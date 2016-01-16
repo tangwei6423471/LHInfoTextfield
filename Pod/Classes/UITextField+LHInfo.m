@@ -25,12 +25,12 @@ const char kLHAnchorView;
     [self.superview addSubview:lh_infoView];
     self.lh_infoView.hidden = true;
 }
--(void)lh_addObserverWithCondition:(BOOL(^)(UITextField * textfield))condition ConfigLabel:(void(^)(UILabel *))config Infomation:(NSString *)information{
+-(void)lh_addObserverWithCondition:(BOOL(^)(UITextField * textfield))condition Config:(void(^)(LHAnchorView *))config Infomation:(NSString *)information{
     if ([self lh_infoView] == nil) {
         LHAnchorView * anchorview = [[LHAnchorView alloc] init];
         [self setLh_infoView:anchorview];
     }
     LHAnchorView * anchorview = [self lh_infoView];
-    [anchorview addObserverWithCondition:condition ConfigLabel:config Infomation:information];
+    [anchorview addObserverWithCondition:condition Config:config Infomation:information];
 }
 @end
