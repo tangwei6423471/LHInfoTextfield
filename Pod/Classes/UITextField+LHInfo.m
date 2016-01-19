@@ -26,11 +26,23 @@ const char kLHAnchorView;
     self.lh_infoView.hidden = true;
 }
 -(void)lh_addObserverWithCondition:(BOOL(^)(UITextField * textfield))condition Config:(void(^)(LHAnchorView *))config Infomation:(NSString *)information{
+    [self createInfoViewIfNeeded];
+    LHAnchorView * anchorview = [self lh_infoView];
+    [anchorview addObserverWithCondition:condition Config:config Infomation:information];
+}
+-(void)lh_showInformation:(NSString *)information Config:(void (^)(LHAnchorView *))config{
+    [self createInfoViewIfNeeded];
+    LHAnchorView * ancorview = [self lh_infoView];
+    [self.superview addSubview:ancorview];
+}
+-(void)lh_hideInformation{
+    [self lh_infoView].hidden = true;
+}
+
+-(void)createInfoViewIfNeeded{
     if ([self lh_infoView] == nil) {
         LHAnchorView * anchorview = [[LHAnchorView alloc] init];
         [self setLh_infoView:anchorview];
     }
-    LHAnchorView * anchorview = [self lh_infoView];
-    [anchorview addObserverWithCondition:condition Config:config Infomation:information];
 }
 @end
