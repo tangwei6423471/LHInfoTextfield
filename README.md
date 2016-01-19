@@ -48,7 +48,7 @@ Add a condition
 
 
 ```
-Note:When add multi conditions,it will follow the order the the conditon is added.
+Note:When add multi conditions,it will follow the order the the conditon is added,and find the first condition that match.
 
 ## Author
 
